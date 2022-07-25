@@ -1,0 +1,29 @@
+{
+  "path": "tfc/soils/loam_farmland.json",
+  "version": "1.18.2",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft",
+    "tfc"
+  ],
+  "id": "loam_farmland",
+  "lang_key": "tfc.farmland.loam.name",
+  "variants": [
+    {
+      "stateDefinition": [],
+      "type": "block",
+      "object": "tfc:farmland/loam",
+      "useTag": false,
+      "nbt": "",
+      "ignoredNbt": [
+        "*"
+      ]
+    }
+  ],
+  "humidity": "wet",
+  "acidity": "slightly_acidic",
+  "nutrients": "high",
+  "growth_modifier": 1.0
+}
